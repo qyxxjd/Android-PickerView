@@ -27,6 +27,7 @@ android {
 }
 
 dependencies {
+    implementation project(':wheelview')
     implementation project(':pickerview')
     implementation "androidx.annotation:annotation:$annotation_version"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
